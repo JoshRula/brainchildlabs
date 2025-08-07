@@ -1,0 +1,18 @@
+<svg width="500" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#228B22" />
+    </marker>
+  </defs>
+  <rect x="10" y="40" width="90" height="40" fill="#228B22" />
+  <text x="20" y="65" font-size="12" fill="white">RFID Tags</text>
+  <line x1="100" y1="60" x2="140" y2="60" stroke="#228B22" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="140" y="40" width="90" height="40" fill="#228B22" />
+  <text x="150" y="65" font-size="12" fill="white">Scanner</text>
+  <line x1="230" y1="60" x2="270" y2="60" stroke="#228B22" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="270" y="40" width="90" height="40" fill="#228B22" />
+  <text x="280" y="65" font-size="12" fill="white">Kiosk</text>
+  <line x1="360" y1="60" x2="400" y2="60" stroke="#228B22" stroke-width="2" marker-end="url(#arrow)" />
+  <rect x="400" y="40" width="90" height="40" fill="#228B22" />
+  <text x="410" y="65" font-size="12" fill="white">Cloud</text>
+</svg>
