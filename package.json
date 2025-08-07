@@ -1,0 +1,8 @@
+{
+  "name": "brainchildlabs",
+  "version": "1.0.0",
+  "description": "RFID-based inventory tracking website",
+  "scripts": {
+    "test": "echo 'No tests specified'"
+  }
+}
