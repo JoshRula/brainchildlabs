@@ -180,6 +180,11 @@ section:nth-of-type(even) {
   height: auto;
 }
 
+/* Lists */
+.content-list {
+  padding-left: 1.5rem;
+}
+
 /* Contact form */
 form {
   max-width: 600px;
