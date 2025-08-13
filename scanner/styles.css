@@ -1,0 +1,112 @@
+:root {
+  --bg: #fff;
+  --fg: #000;
+  --primary: #0069d9;
+  --danger: #d9534f;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  touch-action: manipulation;
+}
+
+#navbar, #infobar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+#navbar {
+  top: 0;
+  background: var(--primary);
+  color: #fff;
+  justify-content: space-between;
+}
+
+#navbar .center {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+}
+
+#navbar button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+#infobar {
+  bottom: 0;
+  background: #333;
+  color: #fff;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#main {
+  position: absolute;
+  top: 60px;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  min-width: 150px;
+  min-height: 44px;
+  margin: 10px;
+  user-select: none;
+}
+
+button.pill {
+  width: 80%;
+  border-radius: 40px;
+  font-size: 24px;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+ul li {
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+  width: 100%;
+}
